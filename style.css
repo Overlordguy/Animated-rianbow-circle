@@ -1,0 +1,32 @@
+.circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid black;
+  animation : rainbow 0.4s infinite;
+  
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: red;
+  }
+  17% {  
+    background-color: black;
+  }
+  34% {
+    background-color: red;    
+  }
+  51% {
+    background-color: black;
+  }
+  68% {
+    background-color: red;
+  }
+  85% {
+    background-color: black;    
+  }
+  100% {
+    background-color: red;   
+  }
+}
